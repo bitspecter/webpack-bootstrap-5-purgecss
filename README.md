@@ -29,18 +29,25 @@ This Git repository serves as a starter template for web development projects, c
 To get started with the project, follow these steps:
 
 1. Install the project dependencies by running the following command:
-
-` npm install `
+```bash
+npm install
+```
 
 2. During development, run the following command to start the Webpack development server and watch for changes:
 
-` npm run watch `
+```bash
+npm run start
+```
 
 
 3. When you're ready to generate the optimized production build, execute the following command: 
 
-` npm run production `
 
+```bash
+npm run build
+```
+
+The application build into `dist` folder.
 
 ## Contributions
 
